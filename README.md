@@ -12,6 +12,13 @@ This repo is a minimal reproducible example of a behavior that I'm observing in 
 
 ## Desired / Actual Behavior:
 
+#### Setup Instructions
+
+1. Clone this repo
+2. Run `npm install` in the root of the repo
+3. `cd apps\demo-extension`
+4. `npm run dev`
+
 ### Follow these steps:
 
 1. Make a change in `packages/components/index.ts` 
