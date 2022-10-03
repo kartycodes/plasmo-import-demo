@@ -3,6 +3,8 @@
   "exclude": ["node_modules"],
   "include": [".plasmo/**/*", "./**/*.ts", "./**/*.tsx"],
   "compilerOptions": {
+    "jsx": "react",
+
     "paths": {
       "~*": ["./*"]
     },
