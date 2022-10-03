@@ -1,0 +1,17 @@
+{
+  "name": "plasmo-import-demo",
+  "version": "1.0.0",
+  "description": "Demo of Dev Server Restart Behavior of Plasmo when project imports local Typescript packages.",
+  "workspaces" : [
+	"packages/*",
+	"apps/*"
+  ],
+  "scripts": {
+	  "build": "turbo run build"
+  },
+  "author": "Kartik Subramani",
+  "license": "ISC",
+  "devDependencies" : {
+	  "turbo" : "^1.4.5"
+  }
+}
